@@ -6,4 +6,6 @@ projectApp.controller('loadBookCtrl', ['$scope', '$http', '$filter', '$q', funct
     }, function (error) {
         console.log(error);
     });
+    //why should use then() instead of success() or error() function?
+    // https://promisesaplus.com/
 }]);
